@@ -16,7 +16,7 @@ module.exports = {
     //  "semi": ["error", "always"],
 
     // Can also be used to overwrite rules specified in extended configs.
-    //  "@typescript-eslint/explicit-function-return-type": "off",
+     "@typescript-eslint/explicit-function-return-type": "off",
     //  "@typescript-eslint/no-inferrable-types": ["warn", {"ignoreParameters":true}],
     //  "@typescript-eslint/no-explicit-any": 1,
     //  "@typescript-eslint/no-unused-vars": "warn"

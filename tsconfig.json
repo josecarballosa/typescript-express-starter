@@ -4,6 +4,21 @@
     "module": "commonjs",
     "strict": true,
     "moduleResolution": "node",
-    "outDir": "dist"
-  }
+    "outDir": "dist",
+    "rootDir": "./src",
+
+    /* Enable simple default imports: import express from 'express' */
+    "esModuleInterop": true,
+  },
+  "files": [
+    "src/index.ts",
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts"
+  ]
+
 }
