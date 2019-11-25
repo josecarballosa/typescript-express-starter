@@ -1,7 +1,10 @@
 {
   "name": "typescript-node-starter",
   "version": "1.0.0",
-  "description": "Starter seed for my typescript node projects",
+  "description": "Starter seed for my typescript express projects",
+  "repository": {
+    "url": "https://github.com/carballosa/typescript-express-starter.git"
+  },
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
@@ -10,9 +13,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/**/*.ts --fix",
     "compile": "tsc",
-    "build": "npm run compile && npm run copy-public && npm run copy-views",
-    "copy-public": "ts-node copy-public.ts",
-    "copy-views": "ts-node copy-views.ts",
+    "copy-assets": "ts-node copy-assets.ts",
+    "build": "npm run compile && npm run copy-assets",
     "start": "node dist/index.js"
   },
   "keywords": [
